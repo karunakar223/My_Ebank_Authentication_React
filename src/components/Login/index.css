@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.login-container {
+  height: 100vh;
+  background-color: #152850;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 400px;
+  width: 400px;
+  background-color: #e0eefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.website-login-image {
+  height: 320px;
+  width: 320px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.form-header {
+  font-size: 32px;
+  font-weight: 900;
+  color: #152850;
+  margin-bottom: 12px;
+}
+label {
+  color: #152850;
+  font-size: 15px;
+  font-weight: 600;
+}
+.user-id,
+.pin {
+  height: 35px;
+  width: 100%;
+  border: 1px solid #5a7184;
+  color: #5a7184;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.login-button {
+  background-color: #1565d8;
+  height: 40px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 8px;
+}

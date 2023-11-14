@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.navbar {
+  height: 14vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.website-logo {
+  height: 80px;
+  width: 100px;
+}
+.nav-button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid #e0eefe;
+  background-color: transparent;
+  color: #e0eefe;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
